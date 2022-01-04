@@ -37,6 +37,7 @@ body{
     line-height: 1;
     background-color: #fafafa;
     font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 }
@@ -46,4 +47,51 @@ body{
 .wrapper{
     min-height: 100%;
     overflow: hidden;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+
+.header_container {
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+}
+._container {
+    max-width: 1200px;
+    padding: 0px;
+    margin: 60px 40px 0px 40px; 
+    box-sizing: content-box; 
+}
+.header_logo {
+
+    
+    font-weight: 400;
+    font-size: 32px; 
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+.header__text {
+}
+.header__menu {
+    margin: 0px 0px 0px 573px;
+}
+.menu {
+    padding: 16px 0px 20px 0px;
+}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+    margin: 0px 0px 0px 35px;
+}
+.menu__link {
 }
