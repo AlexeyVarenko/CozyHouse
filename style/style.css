@@ -90,8 +90,8 @@ body{
     font-size: 13px;
     display: flex;
     align-items: center;
-    letter-spacing: 0.1em;
-    /*color: #FFFFFF;*/
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
 }
 .header__menu {
     margin: 0px 0px 0px 573px;
