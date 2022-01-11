@@ -11,6 +11,13 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+
+
+ border-bottom: 3px solid #F1CDB3;
+
+}
+
 
 ul,
 ol,
@@ -36,7 +43,7 @@ body{
     margin: 0 auto;
     height: 100%;
     line-height: 1;
-    background-color: red;
+    background-color:#fff;
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -44,7 +51,7 @@ body{
 }
 
 .wrapper {
-    background-color: green;
+    background-color: #FFF;
     align-items: center;
     min-height: 100%;
     min-width: 100%;
@@ -101,10 +108,7 @@ color: #F1CDB3;
 margin: 0px 0px 0px 35px;
 }
 
-.menu_item:first-child {
-    margin: 0px 0px 0px 35px;
-    border-bottom: 3px solid #F1CDB3;
-    }
+
 
 
 .menu_link {
@@ -113,4 +117,53 @@ margin: 0px 0px 0px 35px;
     font-size: 15px;
     color: #CDCDCD;
     margin: 10px 0px;
+}
+
+
+/*========================*/
+
+.page {
+    flex: 1 1 auto;
+}
+
+.page_main-block {
+    position: relative;
+
+
+
+}
+
+.page_container {
+    margin: 60px 40px 0px 40px;
+    width: 1200px;
+    height: 728px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page_body {
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 223px 0px 244px 0px;
+}
+
+
+.page_title {
+}
+
+.page_inform {
+}
+
+.page_button {
+}
+
+.page_button_btn {
+}
+
+.page_container_img {
+}
+
+.page_main-block_img {
 }
