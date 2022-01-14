@@ -126,10 +126,13 @@ margin: 0px 0px 0px 35px;
     flex: 1 1 auto;
 }
 
+.backimg{
+ background: url('../img/mainblock/cover.jpg') no-repeat;
+ 
+}
+
 .page_main-block {
     position: relative;
-
-
 
 }
 
@@ -139,6 +142,7 @@ margin: 0px 0px 0px 35px;
     height: 728px;
     display: flex;
     justify-content: space-between;
+   
 }
 
 .page_body {
@@ -147,20 +151,49 @@ margin: 0px 0px 0px 35px;
     justify-content: space-between;
     display: flex;
     padding: 223px 0px 244px 0px;
+    
 }
 
 
 .page_title {
+width: 310px;
+font-family: Georgia;
+font-weight: 400;
+font-size: 44px;
+display: flex;
+align-items: center;
+color: #FFFFFF
 }
 
 .page_inform {
+padding: 0px 42px 0px 0px;
+font-family: Arial;
+font-weight: 400;
+font-size: 15px;
+display: flex;
+align-items: center;
+color: #CDCDCD;
 }
 
 .page_button {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 15px 45px;
+width: 207px;
+height: 52px;
+bottom: 244px;
+background: #F1CDB3;
+border-radius: 100px;
 }
 
 .page_button_btn {
+font-weight: 400;
+font-size: 17px;
+letter-spacing: 0.1px;
+color: #292929;
 }
+
 
 .page_container_img {
 }
