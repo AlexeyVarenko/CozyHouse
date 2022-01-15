@@ -128,11 +128,11 @@ margin: 0px 0px 0px 35px;
 
 .backimg{
  background: url('../img/mainblock/cover.jpg') no-repeat;
- 
+ background-size: 100% 100%;
 }
 
 .page_main-block {
-    position: relative;
+    
 
 }
 
@@ -160,6 +160,7 @@ width: 310px;
 font-family: Georgia;
 font-weight: 400;
 font-size: 44px;
+line-height: 130%;
 display: flex;
 align-items: center;
 color: #FFFFFF
@@ -170,6 +171,7 @@ padding: 0px 42px 0px 0px;
 font-family: Arial;
 font-weight: 400;
 font-size: 15px;
+line-height: 160%;
 display: flex;
 align-items: center;
 color: #CDCDCD;
@@ -193,10 +195,48 @@ font-size: 17px;
 letter-spacing: 0.1px;
 color: #292929;
 }
-
-
-.page_container_img {
+.page_container_img{
+    margin: 0px 0px 0px 21px;
 }
 
-.page_main-block_img {
+
+.page_about {
+    width: 1200px;
+    height: 588px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between
 }
+.page_about_img {
+    margin: 80px 60px 100px 175px;
+}
+.page_about_body {
+    margin: 94px 175px 114px 60px ;
+    flex-direction: column;
+    display: flex;
+    width: 430px;
+    justify-content: space-between;
+}
+.page_about_title {
+max-width: 370px;
+height: 90px;
+font-family: Georgia;
+font-weight: 400;
+font-size: 35px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+}
+.page_about_inform {
+font-family: Arial;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+display: flex;
+align-items: center;
+color: #4C4C4C;
+}
+
+
+
