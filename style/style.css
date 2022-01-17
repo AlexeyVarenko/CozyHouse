@@ -148,9 +148,10 @@ margin: 0px 0px 0px 35px;
 .page_body {
     flex-direction: column;
     height: 100%;
+    max-width: 460px;
     justify-content: space-between;
     display: flex;
-    padding: 223px 0px 244px 0px;
+    padding: 163px 0px 244px 0px;
     
 }
 
@@ -167,7 +168,6 @@ color: #FFFFFF
 }
 
 .page_inform {
-padding: 0px 42px 0px 0px;
 font-family: Arial;
 font-weight: 400;
 font-size: 15px;
@@ -201,11 +201,12 @@ color: #292929;
 
 
 .page_about {
-    width: 1200px;
+    width: 1280px;
     height: 588px;
     background: #FFF;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    
 }
 .page_about_img {
     margin: 80px 60px 100px 175px;
@@ -236,6 +237,37 @@ line-height: 160%;
 display: flex;
 align-items: center;
 color: #4C4C4C;
+}
+
+
+.goods {
+    width: 1280px;
+    height: 877px;
+    background: #F6F6F6;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.goods_header {
+
+}
+.goods_body {
+}
+.goods_column {
+}
+.goods_item {
+}
+.goods_name {
+}
+.goods_button {
+}
+.goods_button_btn {
+}
+.goods_footer {
+}
+.goods_rest {
+}
+.goods_rest_btn {
 }
 
 
