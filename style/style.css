@@ -57,6 +57,7 @@ body{
     min-width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /*================================================*/
@@ -358,6 +359,40 @@ letter-spacing: 0.06em;
 color: #292929;
 margin: 10px 0px;
 }
+
+
+
+.help {
+    background-color: #FFFFFF;
+    padding: 80px 0px 100px 0px;
+    height: 431px;
+}
+/*.wrapper {
+
+}*/
+.help_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 308px;
+    height: 90px;
+}
+
+.help_title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    }
+
+
+.help_items {
+}
+.help_item {
+}
+
+
 
 
 
