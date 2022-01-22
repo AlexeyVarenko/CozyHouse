@@ -434,3 +434,33 @@ color: #545454;
 }
 
 
+.donation {
+    background-color: #F6F6F6;
+    height: 464px;
+    padding: 92px 0px 111px 0px;
+}
+.donation_wrapper {
+    padding: 0px 40px 0px 40px;
+
+}
+.donation_container {
+    height: 261px;
+    display: flex;
+    
+}
+.donatiom_body {
+}
+.donation_title {
+}
+.donation_info {
+}
+.info_subtitle {
+}
+.info_credit-card {
+}
+.info_inform {
+}
+.donation_img {
+}
+
+
