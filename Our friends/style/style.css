@@ -12,6 +12,28 @@ a {
     text-decoration: none;
 }
 
+h1{
+    margin: 0;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+h2{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0;
+}
+
 /********************/
 
 header{
@@ -20,11 +42,26 @@ header{
     height: 60px;
 }
 
+.friends{
+    height: 1162px;
+    background: #F6F6F6;
+    padding: 80px 0px 100px 0px;
+}
+
 .header-wrapper{
     margin: 0px 40px;
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.friends-wrapper{
+    height: 1162px;
+    display:flex;
+    flex-direction: column;
+    margin: 0px 40px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /******header********/
@@ -85,6 +122,87 @@ li:nth-of-type(2){
     font-size: 20px;
     line-height: 160%; 
 }
+
+
+/*******friends*******/
+
+.friends-description{
+    height: 900px;
+    width: 1200px;
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.description_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FAFAFA;
+}
+
+.description_item * {
+    margin-bottom: 30px;
+}
+
+.description_item:hover{
+    cursor: pointer;
+}
+
+.btn{
+    height: 52px;
+    padding: 15px 45px;
+    background: #FAFAFA;
+    border-radius: 100px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: 2px solid #F1CDB3;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #F1CDB3;
+}
+
+.friends-navigation{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-navigation a{
+    height: 52px;
+    width: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+.friends-navigation a:nth-of-type(1),
+.friends-navigation a:nth-of-type(2){
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+}
+
+.friends-navigation a:nth-of-type(3){
+    background: #F1CDB3;
+}
+
+
 
 
 
