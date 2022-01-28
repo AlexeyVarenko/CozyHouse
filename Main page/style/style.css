@@ -1,0 +1,156 @@
+body {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+li {
+    list-style-type: none;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+p1{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+
+}
+
+
+
+
+/******************/
+
+.main{
+    height: 908px;
+    background: url(../img/main/start-screen-gradient-background.png) no-repeat;
+}
+
+.main-wrapper{
+    padding: 0px 40px 0px 40px;
+}
+
+
+/********main*******/
+
+.main__header{
+    height: 60px;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__header__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.main__header__logo-title{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.main__header__logo-subtitle{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.main__header__nav{
+    width: 443px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__list{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+}
+
+.nav__list:hover{
+    color: #FAFAFA;
+    cursor: pointer;
+}
+
+li:nth-child(1):after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color:  #F1CDB3;
+    bottom: -3px;
+    height: 3px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__content-info {
+    justify-content: space-between;
+    height: 321px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 163px;
+}
+
+
+
+
+.main__content-btn {
+    display: flex;
+    align-items: center;
+    padding: 15px 45px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    width: 217px;
+    height: 52px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: none;
+    outline: none;
+
+}
+
+
+.main__content-btn:hover{
+    background: #FDDCC4;
+}
+
+
