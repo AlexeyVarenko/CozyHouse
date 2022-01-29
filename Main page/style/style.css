@@ -29,7 +29,15 @@ p1{
     display: flex;
     align-items: center;
     color: #CDCDCD;
+}
 
+h2{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
 }
 
 
@@ -46,6 +54,17 @@ p1{
     padding: 0px 40px 0px 40px;
 }
 
+.wrapper{
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    background: #FFFFFF;
+    height: 408px;
+    padding: 80px 0px 100px 0px;
+}
 
 /********main*******/
 
