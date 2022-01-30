@@ -49,6 +49,17 @@ h3{
     letter-spacing: 0.06em;
     color: #545454;
     text-align: center;
+    margin: 0px;
+}
+
+h4{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
 }
 
 p2{
@@ -83,7 +94,7 @@ p3{
 }
 
 .wrapper{
-    padding: 0px 40px 0px 40px;
+    margin: 0px 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -103,6 +114,8 @@ p3{
 .pets .wrapper{
     flex-direction: column;
     align-items: center;
+    height: 697px;
+
 }
 
 /********main*******/
@@ -253,3 +266,65 @@ li:nth-child(1):after{
 .pets__card a:last-child{
     margin-left: 53px;
 }
+
+.card__animal{
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__animal *{
+    margin-bottom: 30px;
+}
+
+.card__button{
+    padding: 15px 45px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    background: #FAFAFA;
+}
+
+.card__animal:nth-of-type(2){
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.card__animal:hover{
+    cursor: pointer;
+}
+
+.card__button:hover{
+    cursor: pointer;
+    background: #FDDCC4;
+}
+
+.pets__button{
+    
+    background: #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: none;
+    outline: none;
+}
+
+.pets__button:hover{
+    cursor: pointer;
+    background: #FDDCC4;
+}
+
+
