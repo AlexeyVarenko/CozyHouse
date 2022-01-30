@@ -41,6 +41,16 @@ h2{
     margin: 0;
 }
 
+h3{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
 p2{
     font-family: Arial;
     font-weight: 400;
@@ -82,6 +92,17 @@ p3{
     background: #FFFFFF;
     height: 408px;
     padding: 80px 0px 100px 0px;
+}
+
+.pets{
+    background: #F6F6F6;
+    padding: 80px 0px 100px 0px;
+    height: 697px;
+}
+
+.pets .wrapper{
+    flex-direction: column;
+    align-items: center;
 }
 
 /********main*******/
@@ -206,4 +227,29 @@ li:nth-child(1):after{
     margin-left: 175px;
 }
 
+/**********Our Friends*********/
 
+.pets__card{
+    display: flex;
+    height: 435px;
+    align-items: center;
+}
+
+.pets__card a{
+    padding: 23px 19px;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.pets__card a:first-child{
+    margin-right: 53px;
+}
+
+.pets__card a:last-child{
+    margin-left: 53px;
+}
