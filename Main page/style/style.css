@@ -81,6 +81,59 @@ h6{
     color: #545454;
     margin: 0;
 }
+h7 {
+    margin:0;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+
+}
+
+h8{
+    margin: 0;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+h9{
+    margin: 0;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+h10{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+h11{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    margin-left: 20px;
+}
+
+
 
 p2{
     font-family: Arial;
@@ -97,6 +150,15 @@ p3{
     font-size: 15px;
     line-height: 160%;
         color: #4C4C4C;
+}
+
+p4{
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
 }
 
 
@@ -150,6 +212,26 @@ p3{
     height: 431px;
     justify-content: space-between;
 }
+
+.donation{
+    background: #F6F6F6;
+    padding: 80px 0px 100px 0px;
+    height: 284px;
+}
+
+footer{
+    height: 310px;
+    padding-top: 40px;
+    background: url(../img/Footer/footer-gradient-background.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+footer .wrapper{
+    height: 310px;
+    justify-content: space-between;
+}
+
+
 
 /********main*******/
 
@@ -390,6 +472,47 @@ li:nth-child(1):after{
 
 .help__item:nth-of-type(8){
     margin-right: 120px;
+}
+
+
+/**********donation**********/
+
+.donation__info{
+    display: flex;
+    flex-direction: column;
+    height: 282px;
+    justify-content: space-between;
+    margin-right: 143px;
+}
+
+.donation__card{
+    background: #F1CDB3;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    width: 319px;
+    justify-content: space-between;
+}
+
+.donation__img{
+    margin: 11px 0px 11px 143px;
+}
+
+
+/*********Footer************/
+
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    height: 236px;
+    margin: 16px 0px 60px 0px;
+    justify-content: space-between;
+}
+
+.contacts__form{
+    display: flex;
+    align-items: center;
 }
 
 
