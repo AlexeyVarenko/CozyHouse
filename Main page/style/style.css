@@ -62,6 +62,26 @@ h4{
     color: #545454;
 }
 
+h5{
+    margin: 0;
+    font-family: Georgia;
+        font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+h6{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0;
+}
+
 p2{
     font-family: Arial;
     font-weight: 400;
@@ -116,6 +136,19 @@ p3{
     align-items: center;
     height: 697px;
 
+}
+
+.help{
+    background: #FFFFFF;
+    padding: 80px 0px 100px 0px;
+    height: 431px;
+}
+
+.help .wrapper{
+    flex-direction: column;
+    align-items: center;
+    height: 431px;
+    justify-content: space-between;
 }
 
 /********main*******/
@@ -325,6 +358,38 @@ li:nth-child(1):after{
 .pets__button:hover{
     cursor: pointer;
     background: #FDDCC4;
+}
+
+/*******HELP*************/
+
+.help__list{
+    display: flex;
+    flex-wrap: wrap;
+    height: 281px;
+    margin: 0px 85px;
+    align-content: space-between;
+}
+
+.help__item{
+    display: flex;
+    height: 113px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.help__item:nth-of-type(2),
+.help__item:nth-of-type(4),
+.help__item:nth-of-type(7){
+    margin: 0px 120px;
+}
+
+.help__item:nth-of-type(6){
+    margin-left: 86px;
+}
+
+.help__item:nth-of-type(8){
+    margin-right: 120px;
 }
 
 
